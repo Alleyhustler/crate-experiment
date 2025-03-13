@@ -476,6 +476,26 @@ footer {
     gap: 1.5rem;
   }
 }
+
+.buy-button {
+    background-color: var(--accent);
+    color: var(--text-primary);
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 10px;
+  }
+
+  .buy-button:hover {
+    background-color: var(--accent-hover);
+    transform: translateY(-1px);
+  }
   </style>
 </head>
 <body>
@@ -485,6 +505,9 @@ footer {
         <div class="header-left">
           <div class="logo">Crate Experiment</div>
         </div>
+            <button class="buy-button" onclick="window.location.href='https://pump.fun/profile/5r3y1FnWv8jp6KFJwckufcUG4DYoBQQknsAxNBiHMJ7P'">
+              Buy Now
+            </button>
         
         <div class="header-center">
           <div class="vote-info">
@@ -556,8 +579,8 @@ footer {
       <div class="footer-content">
         <div class="social-links">
           <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
-          <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+          <a href="https://t.me/CrateExp" class="social-link"><i class="fab fa-telegram"></i></a>
+          <a href="https://pump.fun/profile/5r3y1FnWv8jp6KFJwckufcUG4DYoBQQknsAxNBiHMJ7P" class="social-link"><i class="fab fa-web"></i></a>
         </div>
         <div class="copyright">© 2025  Experiment. All rights reserved.</div>
       </div>
